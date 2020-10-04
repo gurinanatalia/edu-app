@@ -18,10 +18,10 @@ const Message = ()=>{
 const Menu = ()=>{
     return(
         <div className="nav flex-column nav-pills" aria-orientation="vertical">
-            <NavLink className="nav-link" to="profile">Профиль</NavLink>
-            <NavLink className="nav-link" to="message">Сообщения</NavLink>
-            <NavLink className="nav-link" to="settings">Настройки</NavLink>
-            <NavLink className="nav-link" to="friends">Мои друзья</NavLink>
+            <NavLink className="nav-link" to="/profile">Профиль</NavLink>
+            <NavLink className="nav-link" to="/message">Сообщения</NavLink>
+            <NavLink className="nav-link" to="/settings">Настройки</NavLink>
+            <NavLink className="nav-link" to="/friends">Мои друзья</NavLink>
         </div>
     )
 }
